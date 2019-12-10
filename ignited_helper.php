@@ -13,9 +13,12 @@ if ( ! function_exists('element'))
 	 * Link : https://github.com/ar0krishna/arignited-callback
 	 *
 	 */
-	function ignited_callback($x ,$a) {
+	function ignited_callback() {
+		$arg = func_get_args();
 		$ci =& get_instance();
-		$x= $ci->$x($a);
+		$x = $arg[0];
+		unset($arg[0]);
+		$x= $ci->$x(...$arg);
 		return $x;
 	}
 }
@@ -48,9 +51,19 @@ if ( ! function_exists('element'))
  *			return cryptography($var);
  *		}
  * 
- * 
- * 
- * 
+ * .//second
+ *  	public function index(Type $var = null)
+ *	{
+ *		$this->load->helper('ignited');
+ *		echo ignited_callback('text','1','yo',11312);
+ * ist function name rest function parameters
+ *	}
+ *	function text($x,$s1,$s3)
+ *		{
+ *			
+ *			return $s1.$x.$s3;
+ *		}
+ *  
  */
 
 ?>
