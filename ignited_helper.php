@@ -1,19 +1,16 @@
 <?php 
-	/**
- * CodeIgniter Igniter Datatable Callback
- *
- * @package		CodeIgniter
- * @subpackage	Helpers
- * @category	Helpers
- * @author		Arun rk
- * @link		https://github.com/ar0krishna/arignited-callback
- */
 
 if ( ! function_exists('element'))
 {
 	/**
 	 * Igniter Datatable Callback
 	 *
+	 * @package	CodeIgniter
+	 * @subpackage	Helpers
+	 * @category	Helpers
+	 * @author	Arun rk
+	 * @link	https://github.com/ar0krishna/arignited-callback
+	 * 
 	 * Its a better Igniter Datatable Callback.
 	 * function needs to be on the same controller that called this helper
 	 *
