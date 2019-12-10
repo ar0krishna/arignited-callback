@@ -5,8 +5,8 @@
  * @package		CodeIgniter
  * @subpackage	Helpers
  * @category	Helpers
- * @author		Arun Dev Team
- * @link		https://codeigniter.com/user_guide/helpers/array_helper.html
+ * @author		Arun rk
+ * @link		https://github.com/ar0krishna/arignited-callback
  */
 
 if ( ! function_exists('element'))
