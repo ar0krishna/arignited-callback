@@ -4,19 +4,14 @@ if ( ! function_exists('element'))
 {
 	/**
 	 * Igniter Datatable Callback
-	 *
-	 * @package	CodeIgniter
-	 * @subpackage	Helpers
-	 * @category	Helpers
-	 * @author	Arun rk
-	 * @link	https://github.com/ar0krishna/arignited-callback
 	 * 
 	 * Its a better Igniter Datatable Callback.
-	 * function needs to be on the same controller that called this helper
+	 * Function needs to be on the same controller that called this helper.
+	 * 
+	 * Author : Arun rk 
+	 * 
+	 * Link : https://github.com/ar0krishna/arignited-callback
 	 *
-	 * @param	function
-	 * @param	mixed
-	 * @return	mixed	depends on what the function returns
 	 */
 	function ignited_callback($x ,$a) {
 		$ci =& get_instance();
